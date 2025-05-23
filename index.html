@@ -5,14 +5,14 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-  <link rel="preload" as="script" href="/satnav/assets/rsky-satnav-f9690d19da6b95c3.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/satnav/assets/rsky-satnav_bg-68e38f4de306779b.wasm" crossorigin></head>
+  <link rel="preload" as="script" href="/./assets/rsky-satnav-f9690d19da6b95c3.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/rsky-satnav_bg-79987353e6e2fefc.wasm" crossorigin></head>
   <body>
     <div id="main"></div>
   <script>
             // We can't use a module script here because we need to start the script immediately when streaming
-            import("/satnav/assets/rsky-satnav-f9690d19da6b95c3.js").then(
+            import("/./assets/rsky-satnav-f9690d19da6b95c3.js").then(
                 ({ default: init }) => {
-                init("/satnav/assets/rsky-satnav_bg-68e38f4de306779b.wasm").then((wasm) => {
+                init("/./assets/rsky-satnav_bg-79987353e6e2fefc.wasm").then((wasm) => {
                     if (wasm.__wbindgen_start == undefined) {
                     wasm.main();
                     }
